@@ -26,7 +26,7 @@ if (!defined('THEME_VERSION')) {    header('HTTP/1.0 403 Forbidden'); exit; }
 <br/>
 <br/>
 <div class="algo_form">
-<form action = "../startup_process_finance" method="POST">
+<form action = "../algo_startup_process_finance" method="POST">
 <div><label>Total Business  Assets (assets used for only business purpose):</label></div>
 <div><input type= "text" name="businessAsset" class="form-control"></div>
 
